@@ -1,0 +1,53 @@
+/* Basic colors */
+:root {
+  --primary: #1a4ba3;
+  --light: #f2f4f7;
+}
+
+/* Navbar */
+.main-nav {
+  background-color: var(--primary);
+}
+
+/* Header section */
+.header-section {
+  background-color: var(--primary);
+  color: white;
+  padding: 40px 0;
+}
+.school-logo {
+  width: 120px;
+  height: auto;
+}
+
+/* Titles */
+.section-title {
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+/* Info box */
+.info-card {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Quick cards */
+.quick-card {
+  background-color: var(--light);
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Footer */
+.footer-section {
+  background-color: var(--primary);
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}

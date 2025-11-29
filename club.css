@@ -1,0 +1,71 @@
+/* Color theme consistent with homepage */
+:root {
+  --primary: #1a4ba3;
+  --light: #f2f4f7;
+}
+
+/* Basic body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--light);
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary);
+}
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+.navbar .nav-link {
+  color: white !important;
+  margin-left: 10px;
+}
+.navbar .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar .nav-link:hover {
+  color: #dce6ff !important;
+}
+
+/* Dropdown */
+select {
+  padding: 8px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+/* Button */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #163f8a;
+}
+
+/* Output box */
+#output {
+  margin-top: 30px;
+  width: 80%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  min-height: 80px;
+}

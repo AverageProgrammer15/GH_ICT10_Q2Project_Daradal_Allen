@@ -1,0 +1,97 @@
+/* Color theme to match homepage */
+:root {
+  --primary: #1a4ba3;
+  --light: #f2f4f7;
+}
+
+/* Page background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--light);
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: var(--primary);
+  margin-top: 20px;
+}
+
+/* Input fields */
+input {
+  padding: 8px;
+  margin: 6px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Labels next to inputs */
+label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  margin-right: 8px;
+}
+
+/* Line separator */
+hr {
+  width: 60%;
+  border: 1px solid #d5d5d5;
+  margin: 15px auto;
+}
+
+/* Button styling */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #163f8a;
+}
+
+/* Output box */
+#output {
+  margin-top: 25px;
+  background-color: white;
+  padding: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navbar styling to match homepage */
+.navbar {
+  background-color: var(--primary);
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+
+.navbar .nav-link {
+  color: white !important;
+  margin-left: 10px;
+}
+
+.navbar .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navbar .nav-link:hover {
+  color: #dce6ff !important;
+}
